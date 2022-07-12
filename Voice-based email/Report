@@ -1,0 +1,49 @@
+Report 
+of 
+Mini Project
+
+
+Name: Rohan Singh Bisht
+Course: Btech CSE (DS)
+Semester: 4th
+University roll no.: 2015187
+Class roll no.: 54
+Resource Person: Saurabh Mishra
+
+
+
+
+
+
+
+Title
+Voice based email service for visually challenged people
+
+
+About
+The project is a python-based application for visually impaired persons using speech to text voice response, thus enabling everyone to control their mail accounts using their voice only and to be able to read, send, and perform all the other useful tasks. The system will prompt the user with voice commands to perform certain action and the user will respond to the same. The main benefit of this system is that the use of mouse and keyboard is completely eliminated, the user will have to respond through voice only.
+
+
+Language Used
+Python
+
+
+
+
+Libraries used
+Smtplib (Simple mail transfer protocol) -> to send email
+Speech_recognition -> refers to automatic recognition of human speech
+Pyttsx3 -> Python text to speech: for python to talk to the user
+
+
+Working
+In the project we have used some variables such as listener: to listen what the user is saying, recognizer: to recognize what the user is saying.
+Next, we have used a dictionary named as email_list. In this list we have some name related to email address. This makes it easier for the user to say the name rather than the whole email address of the receiver. The user can send the mail only to the people whose name are provided in the list.
+Further to make sure that the program can send email without even opening it, the user has to make sure that he/she has given access to his/her Gmail account. The user has to provide his email address and password for sending the email.
+One good thing about the program is that the user does not have to use keyboard or mouse to send the email. He is going to listen the commands and will respond according to that.
+
+
+
+Motivation
+We have seen that the inception of Internet has dramatically revolutionized many fields. Internet has made life of people so easy that people today have access to any information they want sitting at their home. One of the main fields that Internet has revolutionized is communication. And talking about communication over Internet, the first thing that comes in our mind is E-mail. E-mails are considered to be the most reliable way of communication over Internet, for sending or receiving some important information. But there is a special criterion for humans to access the Internet and the criteria is you must be able to see. But there are also especially abled people in our society who are not gifted with what you have. Yes, there are some visually challenged people or blind people who cannot see things and thus cannot see the computer screen or keyboard.
+This project is proposed for the betterment of society. This project aims to help the visually impaired people to be a part of growing digital India by using internet and also aims to make life of such people quite easy. Also, the success of this project will also encourage developers to build something more useful for visually impaired or illiterate people, who also deserves an equal standard in society.
